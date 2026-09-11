@@ -52,3 +52,12 @@ When I say `handoff`:
 - Record unfinished work.
 - Record the next recommended step.
 - Give me a short summary.
+
+## Documentation Maintenance
+
+- Keep `README.md` aligned with meaningful project progress.
+- Update `README.md` when:
+  - a new lesson is completed
+  - a new project folder or major file type is introduced
+  - the project goals or next steps change
+- Do not update `README.md` for trivial edits or small fixes.
