@@ -19,7 +19,7 @@ This repository is a learning project for Robot Framework and Python test automa
 
 - Keep examples simple and beginner-friendly.
 - Do not rewrite completed lessons unless specifically requested.
-- Add documentation to new Robot Framework suites, tests, and keywords.
+- Add documentation to Robot Framework suites, tests, and keywords when it provides useful context beyond an obvious name or implementation.
 - Prefer readable keyword names.
 - Explain changes before making major structural changes.
 - Python code should remain simple and readable.

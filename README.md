@@ -49,11 +49,21 @@ The goal is to build a solid foundation in Robot Framework and gradually move to
 - Importing Python libraries into Robot Framework
 - Returning Python values to Robot tests
 
+### Lesson 10 - Simulated Device Testing
+- Testing shared simulated-device state through a Python library
+- Updating and reading temperature values
+- Using test setup to reset state and keep tests independent
+
+## Next Step
+
+Build a small simulated device-controller test project that applies the lessons in a more realistic embedded-testing workflow.
+
 ## Project Structure
 
 ```text
 robot-framework/
 ├── lessons/
+├── projects/
 ├── resources/
 ├── libraries/
 ├── AGENTS.md

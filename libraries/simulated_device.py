@@ -1,6 +1,7 @@
 """Simulates a device for testing purposes."""
 
 device_status = "OFF"
+temperature = 25
 
 def turn_on():
     global device_status
@@ -14,3 +15,20 @@ def turn_off():
 
 def get_status():
     return device_status
+
+def get_temperature():
+    return temperature
+
+def set_temperature(new_temperature):
+    global temperature
+    temperature = int(new_temperature)
+
+def reset_device():
+    global device_status, temperature
+    device_status = "OFF"
+    temperature = 25
+    print("Device has been reset to default settings.")
+
+def increase_temperature(amount):
+    global temperature
+    temperature += int(amount)
