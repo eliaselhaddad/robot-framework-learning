@@ -56,7 +56,9 @@ The goal is to build a solid foundation in Robot Framework and gradually move to
 
 ## Next Step
 
-Build a small simulated device-controller test project that applies the lessons in a more realistic embedded-testing workflow.
+The simulated heater-controller mini project applies the lessons in a realistic stateful-device workflow: Python functions model controller state, and Robot Framework tests verify power behavior with a reset before every test.
+
+The next recommended step is a separate embedded-device test-harness project with a simulated command/response interface, a Python communication layer, and Robot Framework tests for normal and error behavior.
 
 ## Project Structure
 
